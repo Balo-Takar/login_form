@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title> Login form by Balo Takar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <!-- The contact section -->
+        <section id="contact">
+            <div class="formContainer">
+                <form action="#">
+                    <h1 style="font-weight: bolder;"class="contactHead">Sign Up</h1>
+
+                    <div class="namecontainer">
+                        <label for="firstName">
+                            <input  class="name" type="text" id="firstName" name="firstName" placeholder="*First Name" required>
+                        </label>
+
+                        <label for="lastName">
+                            <input class="name" type="text" id="lastName" name="lastName" placeholder="*Last Name" required>
+                        </label>
+                    </div>
+
+               
+                    <label for="email">
+                        <input type="email" id="email" name="email" placeholder="*Email" required>
+                    </label>
+                    
+                    <label for="password">
+                        <input type="password" id="password" name="password" placeholder="*Password" required>
+                    </label>
+
+                    <label for="confirmPassword">
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="*Confirm Password" required>
+                    </label>
+
+                    <label for="agree" style="display:flex;">
+                        <input type="checkbox" id="agree" name="agree" required>
+                        <p style="font-size: smaller;">*I agree with <a href="#">privacy</a> and <a href="#">policy</a></p>
+                    </label>
+                    
+
+                    <button class="submitBtn" type="submit">Sign Up</button>
+
+                    <p class="option">
+                        Already have an account? <a href="#"> Sign in</a>
+                    </p>
+                </form> 
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+::placeholder{
+    color: white;
+}
+
+/* styling the contact section */
+.formContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40,42,54);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    box-shadow: 4px 8px 20px black;
+    border-radius: 1vh;
+    padding: 2vh;
+    width: 35vh;
+    height: 75vh;
+}
+
+
+.nameContainer{
+    display: flex;
+    gap: 2vh;
+}
+
+.name{
+    width: 15vh;
+}
+
+input{
+    height:3vh;
+    width: 32vh;
+    border-bottom: 1px rgb(255,85,85) solid;
+    font-family: Courier;
+    color: rgb(255,85,85);
+    background-color: rgb(40,42,54);
+    border-radius: 0.8vh;
+}
+
+input:active{
+    transform: scale(1.2);
+    transition: 1000ms;
+    border: 1px rgb(255,85,85);
+}
+
+#agree{
+    width: auto;
+    height: auto;
+    margin-right: 2vh;
+}
+
+.submitBtn{
+    background-color: rgb(255,85,85);
+    height: 5vh;
+    border-radius: 1vh;
+    color:rgb(40,42,54);
+    font-size: larger;
+}
+
+.option{
+    font-size: smaller;
+    text-align:center;
+}
+
+a{
+    color: rgb(255,85,85)
+}
